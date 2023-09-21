@@ -47,7 +47,7 @@ const myFunction = () => {                                               // Func
 }
 
 //***************************************************************************************************
-//Stack and Heap Memory
+//Stack and Heap Memory Video no 10
 
 //Premitive Data types are stored in stack memory
 //Non premitive datatypes are stored in heap memory
