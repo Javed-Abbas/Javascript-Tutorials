@@ -45,3 +45,32 @@ const myObj = {                                                            //Obj
 const myFunction = () => {                                               // Function example
     console.log("Hello World");
 }
+
+//***************************************************************************************************
+//Stack and Heap Memory
+
+//Premitive Data types are stored in stack memory
+//Non premitive datatypes are stored in heap memory
+
+// for example  of stack memory
+
+const myName = "Javed"
+
+let mySecondName = "Abbas"
+mySecondName = "jedi";
+
+console.log(mySecondName);
+
+//exaple of heap memory
+
+const userOne = {
+    name: "Abbas",
+    email: "Abbas@gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Javed@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
